@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId"
+        android:text="Ten"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId"
+        android:text="Dia Chi"
+        android:textSize="16dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/tv_sodt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId"
+        android:text="So dien Thoai"
+        android:textColor="@color/teal_200"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+
+</LinearLayout>
